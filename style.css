@@ -1,0 +1,193 @@
+/*Colors and fonts*/
+
+body{
+	color:#fcf6bd;	
+	font-size:16px;
+	text-align: justify;
+	font-family: 'Open Sans', sans-serif;
+	background-image:url(images/bubbles.jpeg);
+}
+
+.wrap{
+	margin: 40px auto;
+	column-count: 3;
+	column-gap: 10px;
+	padding: 0px 20px;
+	box-shadow: none;
+}
+
+.wrap .item {
+	width: 100% auto;
+	padding: 5px 20px 30px 20px;
+	border-radius: 6px;
+	box-shadow:10px rgba(0,0,0,.2);
+	margin: 25px auto;
+}
+
+header{
+	margin-top: 50px;
+}
+
+.header{
+	width: 100% auto;
+	padding: 5px 20px 30px 20px;
+	border-radius: 6px;
+	box-shadow:10px rgba(0,0,0,.2);
+	margin: 25px 10px 30px 10px ;
+}
+
+@media (max-width: 540px) {
+	.wrap {
+	width: 300px;
+	}
+}
+
+@media (max-width: 720px) {
+	.wrap {
+	width: 500px;
+	}
+}
+
+@media (max-width: 960px) {
+	.wrap {
+	width: 700px;
+	}
+}
+
+@media (max-width: 540px) {
+	.header{
+	width: 300px;
+	}
+}
+
+@media (max-width: 720px) {
+	.header {
+	width: 500px;
+	}
+}
+
+@media (max-width: 960px) {
+	.header {
+	width: 700px;
+	}
+}
+
+h1,h3 {
+	color:#fcf6bd;	
+	font-family: 'Kaushan Script', cursive;'
+	font-weight:bold; 
+	text-align:center;
+}
+
+h1{
+	font-size: 40px
+}
+
+h2{
+	font-family: 'Kaushan Script', cursive;'
+	font-weight:bold; 
+	text-align:center;
+	font-size: 30px;
+	color: #81a4cd;
+}
+
+h3{
+	font-size: 25px
+}
+
+a{
+	text-decoration: none;
+	color: #893328;
+	transition: color 0.4s ease;
+}
+
+a:hover{
+	color: white;
+}
+
+div{
+    background-image: url(images/blue.jpeg);                         
+	padding: 5px 20px 20px 20px;                           
+	border-radius: 4px;
+	box-shadow:0 10px 30px rgba(0,0,0,.2);
+	margin: 15px 10px 15px 10px ;
+	break-inside: avoid;
+}
+
+div.wrap{
+	background-image: url(images/bubbles.jpeg);
+}
+
+img{
+	display: block;
+	margin: auto;
+	border-radius: 4px;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+	
+/*iconos de linkedin y de mail*/
+
+.icon-size{
+	font-size: 40px;
+	list-style: none;
+	padding-left: 0px;
+	text-align: center;
+}
+
+.icon-size li{
+	display: inline;
+	padding: 20px;
+}
+
+/*reglages de las different cards*/
+
+.card-white{
+	background: #fffdec;
+	margin: 0px auto 15px auto;
+}
+
+.no-shadow{
+	box-shadow: none;
+}
+
+.title-yellow{
+	color:#fcf6bd; 
+}
+
+.list-nopoint{
+	list-style: none;
+	padding-left: 0px;
+}
+
+/*reglages de la header*/
+
+
+#introduction p {
+	text-align: center;
+	font-size: 20px;
+	padding: 50px;
+	font-weight: bolder;
+	margin: auto;
+	text-shadow: 1px 1px rgba(0,0,0,0.6)
+}
+
+#introduction{
+	text-align: center;
+}
+.button-red{
+	text-align: center;
+	background-color:#fcf6bd; 
+	color:#81a4cd;
+	padding: 20px 25px;
+	border-radius: 6px;
+	font-size: 20px;
+}
+
+.button-red:hover{
+	background-color: #893328;
+	color: white;
+}
+
